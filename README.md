@@ -6,7 +6,7 @@
 
 ## 直接下载
 
-- 安装包：`dist/方块战场.apk`（约 65 KB，安卓 5.0 以上）
+- 安装包：`dist/voxel-arena-v1.0.apk`（约 65 KB，安卓 5.0 以上）
 - 网页版：`index.html`，手机浏览器直接打开即可玩
 
 也可以在 Releases 页面下载。
@@ -47,7 +47,7 @@ android/            安卓外壳工程（原生 WebView + 全屏横屏）
 pwsh -File android/build.ps1 -Jdk "C:\path\to\jdk-17" -Sdk "C:\path\to\android-sdk"
 ```
 
-产物：`dist/方块战场.apk`
+产物：`dist/voxel-arena-v1.0.apk`
 
 ## 说明
 

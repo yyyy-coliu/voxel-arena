@@ -98,7 +98,7 @@ if (-not (Test-Path $ks)) {
   --out (Join-Path $OUT "voxel-arena.apk") (Join-Path $OUT "app.aligned.apk")
 
 New-Item -ItemType Directory -Force -Path (Join-Path $repo "dist") | Out-Null
-Copy-Item (Join-Path $OUT "voxel-arena.apk") (Join-Path $repo "dist\方块战场.apk") -Force
+Copy-Item (Join-Path $OUT "voxel-arena.apk") (Join-Path $repo "dist\voxel-arena.apk") -Force
 
-$kb = [math]::Round((Get-Item (Join-Path $repo "dist\方块战场.apk")).Length / 1KB, 1)
-Write-Host "完成：dist\方块战场.apk ($kb KB)"
+$kb = [math]::Round((Get-Item (Join-Path $repo "dist\voxel-arena.apk")).Length / 1KB, 1)
+Write-Host "完成：dist\voxel-arena.apk ($kb KB)"
